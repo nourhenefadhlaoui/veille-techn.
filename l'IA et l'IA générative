@@ -1,0 +1,32 @@
+cette première leçon consiste à introduire les concepts fondamentaux de l'intelligence artificielle et de  l'intelligence artificielle générative 
+pour intelligence artificielle(IA):
+l'intelligence ou IA designe des techniques qui permettent à des orfinateurs de réaliser des taches qui demandent habituellement l'intelligence humainne 
+par exemple une IA peut:
+*comprendre le langage 
+*reconnaitre des images ou des formes
+*prendre décisions 
+*apprendre à partir de données
+pour intelligence artificielle générative:
+l'IA générative est un type d'IA capable de créér de nouveaux contenus pour y parvenir elle étudie de grandes quantités de données et repère les modèles qui se répètent
+elle peut créer:
+*des textes 
+*des images 
+*des sons 
+*des vidéos 
+*du code informatique
+Machine learning(ML):
+apprentissage  automatique et apprentissage profond 
+Deep learning (DL):
+reseaux de neurones artificiels et apprentissage profond
+large language models (llm):
+grands modèles de langage et traitement du langage naturel 
+fonctionnement des modèles:
+*données d'entrainement: collecte préparation et qualité des données 
+*entrainement des modèles:apprentissage des regularités présentes dans les données
+*prompt:formulation et optimisation des consignes données a un modèle
+*génération de contenu:production de textes ,d'images,de sons ,de vidéos ou de code
+limites:
+*hallucination : génération d'informations incorrectes ou non fondées 
+*biais: résultats influencés par les biais présents dans les données ou dans la conception des modèles
+*fiabilité de l'information :vérification et validation des résultats générés
+*éthique de l'IA:transparence responsabilité et utilisation responsable
