@@ -1,0 +1,153 @@
+1.MA TACHE:
+je souhaite utiliser une IA générative pour preparer une explication simple du machine learning ,desstinée a des  étudiants l1
+2.PREMIERE TENTATIVE_PROMPT V1:
+*mon premier prompt:
+explique le machine learning ne pas depasser une certaine taille (<=280mots)
+*reponse obtenue:
+Le Machine Learning (apprentissage automatique)
+Le Machine Learning (ML), ou apprentissage automatique, est une branche de l’intelligence artificielle (IA) qui permet aux ordinateurs d’apprendre à partir de données et d’améliorer leurs performances sans être programmés explicitement pour chaque situation.
+1. Comment fonctionne le Machine Learning ?
+Le Machine Learning repose sur trois étapes principales :
+Collecte des données : on rassemble des informations utiles pour résoudre un problème.
+Entraînement du modèle : l’ordinateur analyse les données afin d’identifier des relations et des modèles.
+Prédiction : le modèle utilise ce qu’il a appris pour analyser de nouvelles données et produire un résultat.
+2. Exemple simple
+Prenons l’exemple d’une application qui reconnaît les courriels indésirables (spam). On lui fournit des milliers de courriels déjà classés comme « spam » ou « non-spam ». Le modèle apprend à reconnaître les caractéristiques des messages indésirables. Ensuite, il peut classer automatiquement de nouveaux courriels.
+3. Les principaux types de Machine Learning
+Apprentissage supervisé : le modèle apprend à partir de données accompagnées de réponses connues.
+Apprentissage non supervisé : le modèle recherche des groupes ou des structures dans des données non étiquetées.
+Apprentissage par renforcement : le modèle apprend à choisir des actions grâce aux récompenses ou aux pénalités reçues.
+4. Domaines d’application
+Le Machine Learning est utilisé dans plusieurs domaines : la médecine, les banques, les réseaux sociaux, les systèmes de recommandation et la reconnaissance vocale.
+Conclusion
+Le Machine Learning permet donc aux ordinateurs d’apprendre à partir des données pour effectuer des tâches, reconnaître des modèles et réaliser des prédictions. Il constitue une technologie essentielle dans le développement de l’intelligence arti
+ANALYSE DE LA REPONSE:
+*qu'est ce qui est satisfaisant?
+structure claire et complète,exactitude scientifique,exemple concret,respect de la contrainte de taille 
+*qu'est ce qui pourrait etre amélioré?
+absence d'adaptation au public cible,manque de role pour l'IA ,explication trop concise des types de ML,absnece de format spécifique
+*qu'est ce qui manque dans mon prompt?
+role [x]
+contexte [x]
+tache précise [x]
+contraintes [x]
+format de sortie [x]
+public cible [x]
+3.DEUXIEME TENTATIVE_PROMPT V2:
+*mom prompt amélioré:
+tu es un professeur d'université spécialisé en IA explique le machine learning à un groupe d'etudiants l1 en informatique donne une definition sous forme de tableau
+*reponse obtenue:
+
+**Élément**       |**	Description**
+Nom français      |Apprentissage automatique
+Nom anglais       | Machine Learning (ML)
+Domaine	          |   Intelligence artificielle (IA)
+Définition	      | Technique permettant à un ordinateur d’apprendre à partir de données pour effectuer une tâche.
+Objectif	      |Analyser les données, identifier des relations et réaliser des prédictions.
+Fonctionnement    |Collecte des données, entraînement d’un modèle et utilisation du modèle pour produire des résultats.
+Exemple	          |Un système qui analyse des courriels pour distinguer les messages indésirables (spam) des messages normaux.
+Applications      | Médecine, finance, reconnaissance vocale, recommandation de contenus et détection des fraudes.
+4.COMPARAISON:
+**critere                 v1     v2
+precision                 1/2   2/2
+pertinence                1/2   2/2
+respect des contraintes   1/2   2/2
+respect du format         0/2   2/2
+clarté                    1/2   2/2
+TOTAL                     4/10  10/10
+pourquoi v2 est-elle meilleure ?
+La version V2 est nettement meilleure car elle intègre un rôle précis (professeur d'université) et définit clairement le public cible (étudiants de L1). 
+De plus, elle impose des contraintes de contenu structurées et exige un format de sortie sous forme de tableau, ce qui permet d'obtenir une réponse claire,
+directement exploitable et parfaitement adaptée aux besoins des étudiants.
+ai-je réellement obtenu une meilleure réponse ?
+[x] Oui  
+​Justification :
+​La réponse V2 est plus claire, plus lisible et parfaitement adaptée à des étudiants de L1.
+Grâce aux contraintes ajoutées (rôle de professeur, niveau L1 et format en tableau), l'IA a structuré les informations essentielles avec des exemples concrets pour chaque type de Machine Learning,
+ce qui rend l'explication immédiatement assimilable.
+5.EXPERIENCE ZERO SHOT ONE SHOT FEW SHOT 
+5.1 ZERO SHOT:
+prompt:
+Explique le Machine Learning à un étudiant de L1
+reponse de l'IA:
+Le Machine Learning est une branche de l'intelligence artificielle qui permet aux ordinateurs d'apprendre à partir de données pour réaliser des tâches automatiques sans programmation explicite
+5.2 ONE SHOT:
+prompt:
+"Explique MACHINE LEARNING sous forme de définition + exemple
+reponse de l'IA:
+Machine Learning = Champ d'étude permettant aux ordinateurs d'apprendre à partir de données. Exemple : Détection de spams dans les e-mails.
+5.3 FEW SHOT:
+prompt:
+Tu es un enseignant en IA. Explique le Machine Learning à des étudiants de L1 informatique en comparant l'apprentissage supervisé, non supervisé et par renforcement. Donne un exemple concret pour chacun
+reponse de l'IA:
+Type d’apprentissage	                    Principe	                                                                               Exemple concret
+Apprentissage supervisé 	|Le modèle apprend à partir de données étiquetées, contenant les réponses attendues.|	Détecter les spams dans les e-mails à partir d’exemples déjà classés.
+Apprentissage non supervisé	|Le modèle recherche des structures ou des groupes dans des données non étiquetées.	|Regrouper des clients selon leurs habitudes d’achat.
+Apprentissage par renforcement	|Le modèle apprend par essais et erreurs grâce à des récompenses ou des pénalités.	|Entraîner une IA à jouer aux échecs en améliorant ses décisions.
+Qu'avez-vous remarqué entre les trois approches ?  
+​Le Zero-shot donne une réponse générale mais peu structurée.
+Le One-shot permet d'imposer un format de réponse simple. 
+Le Few-shot offre une précision maximale, car l'IA reproduit exactement la structure, le style et la rigueur souhaités grâce à la multiplication des exemples.  
+​Selon vous, dans quelle situation le few-shot est-il utile ?  
+​Le few-shot est particulièrement utile lorsque l'on souhaite imposer une structure complexe, un format strict (ex. JSON, tableau spécifique) 
+ou un style de rédaction très précis sans avoir à rédiger de longues règles.
+6.AUTO-CRITIQUE LEGERE:
+j'ai demandé a l'IA:
+Analyse ta réponse précédente.identifie deux points forts,deux faiblesses et propose deux améliorations.
+résultat de l'auto critique :
+​Points forts : Structure claire avec exemples concrets et niveau bien adapté aux L1.
+​Faiblesses : Absence d'explication des limites des modèles et manque de ressources d'approfondissement.
+​Améliorations : Ajouter les limites de chaque type de ML et inclure des exercices pratiques.
+Est-ce que cette auto-critique garantit que la réponse est correcte ?
+[x] Non  
+​Pourquoi ?
+​Car l'IA peut commettre des erreurs de raisonnement ou souffrir d'hallucinations lors de sa propre évaluation. 
+Seule une vérification humaine permet de valider avec certitude la pertinence et l'exactitude des informations.
+7.MON PROMPT FINAL:
+Tu es un professeur d'université spécialisé en intelligence artificielle.
+Explique le Machine Learning à des étudiants de L1 informatique. 
+Présente une définition synthétique, puis compare les trois types (supervisé, non supervisé, par renforcement) avec un exemple concret pour chacun.
+Structure le résultat sous forme de tableau Markdown clair et pédagogique.
+Ne dépasse pas 200 mots.
+​Quels éléments ai-je ajoutés ou modifiés ?
+​[x] Rôle  
+​[x] Contexte  
+​[x] Tâche  
+​[x] Contraintes  
+​[x] Format  
+​[x] Exemples / few-shot  
+​[x] Critères de qualité
+8.MON GABARIT DE PROMPT REUTILISABLE :
+​FORMAT  
+​Présente la réponse sous la forme suivante : un tableau comparatif Markdown.  
+​RÔLE  
+​Tu es un enseignant / expert pédagogue en [domaine].
+CONTEXTE  
+​Le contexte est l'explication d'un concept complexe à des étudiants débutants de niveau [niveau d'études].  
+​TÂCHE  
+​Ta tâche est de définir le concept [Nom du sujet] et de comparer ses différentes composantes clés avec des exemples pratiques.  
+​CONTRAINTES  
+​Respecte les contraintes suivantes :  
+​Utiliser un ton clair, synthétique et pédagogique sans jargon inutile.  
+​Limiter la longueur du texte (ex. moins de 200 mots).
+CRITÈRES DE QUALITÉ  
+​La réponse doit être :
+claire 
+factuelle 
+bien structurée et facile à comprendre.
+9.MA REFLEXION PERSONNELLE:
+​1.Quel élément du prompt a eu le plus d'impact sur la réponse ?  
+​Le format de sortie (demander un tableau) et la définition du rôle/public cible (professeur pour étudiants de L1).
+​2.Quelle erreur ai-je commise dans mon premier prompt ?  
+​Mon premier prompt était trop court, vague et manquait de contexte, de rôle et de contraintes de format. 
+​3.Qu'ai-je appris en comparant V1 et V2 ?  
+​Un prompt bien structuré (Rôle + Contexte + Tâche + Contraintes + Format) produit une réponse nettement plus pertinente et directement exploitable.
+​4.Quand le few-shot est-il utile ?  
+​Il est utile lorsqu'on veut imposer un style de rédaction très précis ou un format de réponse complexe en fournissant directement des exemples à l'IA. 
+​5.Pourquoi faut-il vérifier une réponse produite par une IA ?  
+​Car l'IA peut commettre des erreurs, inventer des faits (hallucinations) ou donner des informations obsolètes.
+​6.Dans quel autre domaine pourrais-je réutiliser mon gabarit ?  
+​Pour préparer des résumés de cours, rédiger des e-mails professionnels ou générer du code informatique commenté.
+
+
+
