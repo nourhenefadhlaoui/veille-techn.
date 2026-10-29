@@ -1,0 +1,31 @@
+pour réaliser une fiche de lecture des trois sources ,utiliser le prompt suivant :
+"what are the potential research gaps in heart failure diagnosis using AI models based on ECG?
+Cite three sources: Official, scientific articles and newsletter sources
+Review and Meta-Analysis"
+SOURCE1(lecture de fiche 1)
+Titre de la source : Efficacy of AI Models in Detecting Heart Failure Using ECG Data: A Systematic Review and Meta-Analysis
+Type de source : Article scientifique
+Auteur ou organisme et date : Auteurs de l’article, 2025.
+Lien de la source : https://pmc.ncbi.nlm.nih.gov/articles/PMC11891813/
+Idée principale : Cette étude évalue les performances des modèles d’intelligence artificielle dans la détection de l’insuffisance cardiaque à partir des signaux ECG.
+Éléments de preuve : La revue analyse 13 études portant sur 218 202 participants. Les résultats regroupés rapportent une sensibilité de 93 % et une spécificité de 95 %.
+Limites ou biais éventuels : Les performances varient selon les études. La validation sur des populations indépendantes et dans des conditions cliniques réelles reste nécessaire.
+Vérification effectuée : Le lien renvoie vers une publication scientifique accessible sur PubMed Central. Les résultats et les références bibliographiques doivent être vérifiés dans le texte intégral.
+SOURCE2(lecture de fiche2):
+Titre de la source : Artificial intelligence-related health research: ethics review and oversight
+Type de source : Source institutionnelle
+Auteur ou organisme et date : Organisation mondiale de la Santé (OMS), 2026.
+Lien de la source : https://www.who.int/publications/i/item/9789240124073
+Idée principale : L’utilisation de l’intelligence artificielle dans le domaine de la santé nécessite une gouvernance adaptée afin de garantir la sécurité, l’équité et la protection des patients.
+Éléments de preuve : La publication aborde les enjeux éthiques liés à la recherche en santé utilisant l’IA, notamment la supervision, les risques et la protection des personnes.
+Limites ou biais éventuels : Cette source traite des enjeux généraux de l’IA en santé et non spécifiquement du diagnostic de l’insuffisance cardiaque à partir de l’ECG.
+Vérification effectuée : Source institutionnelle identifiée comme provenant de l’OMS. Le titre, la date et le contenu précis doivent être confirmés sur la page officielle.
+SOURCE3(lecture de fiche 3):
+Titre de la source : Artificial intelligence-enhanced ECGs may speed heart failure diagnosis and treatment
+Type de source : Article spécialisé / actualité médicale
+Auteur ou organisme et date : American Heart Association (AHA), 2020.
+Lien de la source : https://newsroom.heart.org/news/artificial-intelligence-enhanced-ecgs-may-speed-heart-failure-diagnosis-and-treatment
+Idée principale : L’intelligence artificielle appliquée à l’ECG pourrait faciliter la détection précoce de l’insuffisance cardiaque et contribuer à accélérer la prise en charge des patients.
+Éléments de preuve : L’article présente une étude portant sur 1 606 patients et examine le potentiel d’un ECG analysé par l’IA pour identifier des signes associés à l’insuffisance cardiaque.
+Limites ou biais éventuels : Les résultats rapportés proviennent d’une analyse rétrospective. Des études prospectives supplémentaires sont nécessaires pour confirmer l’efficacité de cette approche en pratique clinique.
+Vérification effectuée : Source d’actualité médicale institutionnelle publiée par l’American Heart Association. Elle doit être distinguée d’un article scientifique original évalué par les pairs.
